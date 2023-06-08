@@ -1,7 +1,7 @@
 Web App for project "Data Mining the Water Table"
 
 
-Steps:
+Steps to create and build package:
 
 1. create folder where we store our app data
 2. open terminal in the folder and open vscode using 'code .'
@@ -18,4 +18,7 @@ Steps:
     git push -u origin main
 
 7. create setup.py and requirements.txt
-8. 
+8. create source folder as 'src' and a file inside it as '__init__.py'
+9. run command 'pip install -r requirements.txt'. ugrade pip if required using 'python -m pip install --upgrade pip'
+10. created exception.py and logger.py
+
