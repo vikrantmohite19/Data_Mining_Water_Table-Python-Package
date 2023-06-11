@@ -5,7 +5,7 @@ Steps to create and build package:
 
 1. create folder where we store our app data
 2. open terminal in the folder and open vscode using 'code .'
-3. create new vitual environment using coand 'conda creat -p venv python==3.9 -y'
+3. create new vitual environment using coand 'conda create -p venv python==3.9 -y'
 4. create README.md file
 5. create repository on github
 6. use following commands to setup the repository
@@ -21,4 +21,7 @@ Steps to create and build package:
 8. create source folder as 'src' and a file inside it as '__init__.py'
 9. run command 'pip install -r requirements.txt'. ugrade pip if required using 'python -m pip install --upgrade pip'
 10. created exception.py and logger.py
+11. Created new folder 'notebook' and copied all ipython files into the folder. 
+12. Then to run ipython notebooks , had to run the command in terminal "conda install ipykernel --update-deps --force-reinstall" to install ipykernal.
+13. 
 
