@@ -9,6 +9,9 @@ from dataclasses import dataclass
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
 
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
+
 
 @dataclass
 class DataIngestionConfig:
@@ -48,7 +51,7 @@ class DataIngestion:
 
             )
         except Exception as e:
-            raise CustomException(e,sys)
+            raise CustomException(e)
 
 if __name__=="__main__":
     obj=DataIngestion()
@@ -58,3 +61,7 @@ if __name__=="__main__":
     preprocessed_train, preprocessed_test=data_transformation.save_preprocessed(train_data,test_data)
 
     X_smote_train_path, y_smote_train_path, X_smote_test_path, y_smote_test_path = data_transformation.vectorizer(preprocessed_train,preprocessed_test)
+
+    
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(X_smote_train_path, y_smote_train_path, X_smote_test_path, y_smote_test_path))
