@@ -34,14 +34,14 @@ def load_object(file_path):
         raise CustomException(e, sys)
 
 
-def evaluate_models(X_train, y_train,X_test,y_test,models,param):
+def evaluate_models(X_train, y_train,X_test,y_test,models, param):
     try:
         Result = {}
 
         Result = {
             'Model': [],
             'Train_Accuracy_score' : [],
-            'Train_Accuracy_score': [],
+            'Test_Accuracy_score': [],
             'Train_Balanced_Accuracy': [],
             'Test_Balanced_Accuracy' : [],
             'Train_F1_Score': [],
@@ -92,7 +92,7 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
 
 
             Result['Train_roc_auc_score'].append(Train_roc_auc_score)
-            Result['Test_F1_Score'].append(Test_roc_auc_score)
+            Result['Test_roc_auc_score'].append(Test_roc_auc_score)
 
         
         return Result

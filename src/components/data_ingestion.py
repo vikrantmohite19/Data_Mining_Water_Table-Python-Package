@@ -64,4 +64,6 @@ if __name__=="__main__":
 
     
     modeltrainer=ModelTrainer()
-    print(modeltrainer.initiate_model_trainer(X_smote_train_path, y_smote_train_path, X_smote_test_path, y_smote_test_path))
+    test_score, result_df = modeltrainer.initiate_model_trainer(X_smote_train_path, y_smote_train_path, X_smote_test_path, y_smote_test_path)
+    print(test_score)
+    print(result_df)
