@@ -23,5 +23,7 @@ Steps to create and build package:
 10. created exception.py and logger.py
 11. Created new folder 'notebook' and copied all ipython files into the folder. 
 12. Then to run ipython notebooks , had to run the command in terminal "conda install ipykernel --update-deps --force-reinstall" to install ipykernal.
-13. 
+13. Created inside the folder 'src' created exception.py, logger.py, utils.py
+14. Inside src, created new folder 'pipeline'. Inside 'pipeline created __init__.py, predict_pipeline.py & train_pipeline.py.
+15. Inside src, created new folder 'components'. Inside 'components' created __init__.py, data_ingestion.py, data_transformation.py, model_trainer.py.
 
