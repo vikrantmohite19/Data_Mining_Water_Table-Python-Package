@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Data Mining the Water Table</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="funder" placeholder="funder" required="required" /><br>
+    	  <input type="number" name="gps_height" placeholder="gps_height" required="required" /><br>
+        <input type="text" name="installer" placeholder="installer" required="required" /><br>
+        <input type="number" name="longitude" placeholder="longitude" required="required" /><br>
+        <input type="number" name="latitude" placeholder="latitude" required="required" /><br>
+        <input type="text" name="basin" placeholder="basin" required="required" /><br>
+        <input type="text" name="region" placeholder="region" required="required" /><br>
+        <input type="number" name="district_code" placeholder="district_code" required="required" /><br>
+        <input type="text" name="lga" placeholder="lga" required="required" /><br>
+        <input type="number" name="population" placeholder="population" required="required" /><br>
+        <input type="text" name="extraction_type_group" placeholder="extraction_type_group" required="required" /><br>
+        <input type="text" name="management" placeholder="management" required="required" /><br>
+        <input type="text" name="payment" placeholder="payment" required="required" /><br>
+        <input type="text" name="water_quality" placeholder="water_quality" required="required" /><br>  
+        <input type="text" name="quantity" placeholder="quantity" required="required" /><br>
+        <input type="text" name="source" placeholder="source" required="required" /><br>
+        <input type="text" name="waterpoint_type" placeholder="waterpoint_type" required="required" /><br>
+        <input type="number" name="operational_year" placeholder="operational_year" required="required" /><br>
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>
