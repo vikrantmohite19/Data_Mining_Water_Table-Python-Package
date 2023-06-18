@@ -1,0 +1,12 @@
+[ 2023-06-18 14:52:59,365 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-18 14:52:59,365 ] 187 werkzeug - INFO -  * Debugger PIN: 984-324-664
+[ 2023-06-18 14:54:38,167 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:54:38] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 14:54:38,265 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:54:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-06-18 14:56:09,576 ] 60 root - INFO - df is created
+[ 2023-06-18 14:56:09,576 ] 20 root - INFO - Saving model path & vectoriser's path completed
+[ 2023-06-18 14:56:09,656 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:56:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-18 14:56:10,984 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:56:10] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-06-18 14:56:10,984 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:56:10] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-06-18 14:56:11,007 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:56:11] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-06-18 14:56:11,064 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 14:56:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-18 14:58:09,865 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Vikrant Mohite\\Desktop\\Applied_AI\\Case Study-1\\DMWT_Web-App\\src\\utils.py', reloading

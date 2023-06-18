@@ -1,0 +1,11 @@
+[ 2023-06-18 15:07:14,151 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-18 15:07:14,153 ] 187 werkzeug - INFO -  * Debugger PIN: 984-324-664
+[ 2023-06-18 15:07:35,572 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 15:07:35] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 15:08:22,330 ] 60 root - INFO - df is created
+[ 2023-06-18 15:08:22,330 ] 20 root - INFO - Saving model path & vectoriser's path completed
+[ 2023-06-18 15:08:22,765 ] 26 root - INFO - Laoding model object and vectoriser's object completed
+[ 2023-06-18 15:08:22,789 ] 34 root - INFO - Vectoriser's dataframe is ready
+[ 2023-06-18 15:08:22,805 ] 39 root - INFO - prediction completed
+[ 2023-06-18 15:08:22,805 ] 187 werkzeug - INFO - 192.168.0.8 - - [18/Jun/2023 15:08:22] "POST /predict HTTP/1.1" 200 -
+[ 2023-06-18 15:23:00,183 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:23:00] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 15:23:00,241 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:23:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

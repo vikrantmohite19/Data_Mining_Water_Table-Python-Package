@@ -1,0 +1,11 @@
+[ 2023-06-18 15:27:49,461 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-18 15:27:49,466 ] 187 werkzeug - INFO -  * Debugger PIN: 984-324-664
+[ 2023-06-18 15:28:03,434 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:28:03] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 15:28:05,372 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:28:05] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 15:28:50,557 ] 60 root - INFO - df is created
+[ 2023-06-18 15:28:50,557 ] 20 root - INFO - Saving model path & vectoriser's path completed
+[ 2023-06-18 15:28:51,146 ] 26 root - INFO - Laoding model object and vectoriser's object completed
+[ 2023-06-18 15:28:51,218 ] 34 root - INFO - Vectoriser's dataframe is ready
+[ 2023-06-18 15:28:51,243 ] 39 root - INFO - prediction completed
+[ 2023-06-18 15:28:51,243 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:28:51] "POST /predict HTTP/1.1" 200 -
+[ 2023-06-18 15:38:36,304 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\vikrant mohite\\desktop\\applied_ai\\case study-1\\dmwt_web-app\\app.py', reloading
