@@ -1,0 +1,12 @@
+[ 2023-06-18 21:14:49,446 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.0.8:9900
+[ 2023-06-18 21:14:49,446 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-06-18 21:15:11,184 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 21:15:11] "GET / HTTP/1.1" 200 -
+[ 2023-06-18 21:15:51,129 ] 60 root - INFO - df is created
+[ 2023-06-18 21:15:51,130 ] 20 root - INFO - Saving model path & vectoriser's path completed
+[ 2023-06-18 21:16:09,294 ] 26 root - INFO - Laoding model object and vectoriser's object completed
+[ 2023-06-18 21:16:09,315 ] 34 root - INFO - Vectoriser's dataframe is ready
+[ 2023-06-18 21:16:09,320 ] 39 root - INFO - prediction completed
+[ 2023-06-18 21:16:09,321 ] 187 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 21:16:09] "POST /predict HTTP/1.1" 200 -

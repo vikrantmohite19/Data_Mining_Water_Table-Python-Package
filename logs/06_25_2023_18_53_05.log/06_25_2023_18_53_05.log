@@ -1,0 +1,16 @@
+[ 2023-06-25 18:53:07,190 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2023-06-25 18:53:07,614 ] 33 root - INFO - Read the dataset as dataframe
+[ 2023-06-25 18:53:08,607 ] 39 root - INFO - Train test split initiated
+[ 2023-06-25 18:53:09,615 ] 46 root - INFO - Inmgestion of the data is completed
+[ 2023-06-25 18:53:10,260 ] 134 root - INFO - preprocessing completes.
+[ 2023-06-25 18:53:10,758 ] 141 root - INFO - preprocessed csv files are saved in 'preprocessed folder.
+[ 2023-06-25 18:53:10,905 ] 157 root - INFO - reading the prrprocessed data is done.
+[ 2023-06-25 18:53:10,946 ] 190 root - INFO - saving the scaler object is done.
+[ 2023-06-25 18:53:11,442 ] 203 root - INFO - saving the encoder object is done.
+[ 2023-06-25 18:53:11,661 ] 208 root - INFO - applying SMOTE on train data.
+[ 2023-06-25 18:53:12,320 ] 213 root - INFO - applying SMOTE on test data.
+[ 2023-06-25 18:53:14,837 ] 223 root - INFO - saving all CSV files after applying SMOTE
+[ 2023-06-25 18:53:14,853 ] 32 root - INFO - reading vectorised data
+[ 2023-06-25 18:53:15,128 ] 38 root - INFO - initializing the models and defining the parameters
+[ 2023-06-25 18:59:31,097 ] 114 root - INFO - Best found model on both training and testing dataset
+[ 2023-06-25 18:59:31,097 ] 120 root - INFO - Best model has been saved in artifact folder
