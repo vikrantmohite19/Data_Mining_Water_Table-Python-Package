@@ -5,7 +5,7 @@ Steps to create and build package:
 
 1. create folder where we store our app data
 2. open terminal in the folder and open vscode using 'code .'
-3. create new vitual environment using coand 'conda create -p venv python==3.9 -y'
+3. create new vitual environment using command 'conda create -p venv python==3.9 -y'
 4. create README.md file
 5. create repository on github
 6. use following commands to setup the repository
