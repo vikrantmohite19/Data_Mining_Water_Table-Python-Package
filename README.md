@@ -21,7 +21,7 @@ Steps to create and build package:
 8. create source folder as 'DMWT_Package' and a file inside it as '__init__.py' to consider 'DMWT_Package' as a package. 
 9. run command 'python -m pip install -r requirements.txt'. (ugrade pip if required using 'python -m pip install --upgrade pip'). this stage will generate a folder 'DMWT_Package.egg-info' 
 10. created exception.py and logger.py
-11. Created new folder 'notebook' and copied all ipython files into the folder. create data folder inside 'notebook' and copy all row data files.
+11. Created new folder 'notebook' and copied all ipython files into the folder. create data folder inside 'notebook' and copy all raw data files.
 <!-- 12. Then to run ipython notebooks , had to run the command in terminal "conda install ipykernel --update-deps --force-reinstall" to install ipykernal. -->
 13. Inside the folder 'DMWT_Package' created exception.py, logger.py, utils.py
 14. Inside 'DMWT_Package', creat new folder 'pipeline'. Inside 'pipeline created __init__.py, predict_pipeline.py & train_pipeline.py.
